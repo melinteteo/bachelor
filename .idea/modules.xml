@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bachelor.iml" filepath="$PROJECT_DIR$/.idea/bachelor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use-case-3/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/use-case-3/service-registry/service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use-case-3/usecase3-user/usecase3-user.iml" filepath="$PROJECT_DIR$/use-case-3/usecase3-user/usecase3-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use-case-3/usecase3-vendor/usecase3-vendor.iml" filepath="$PROJECT_DIR$/use-case-3/usecase3-vendor/usecase3-vendor.iml" />
+    </modules>
+  </component>
+</project>

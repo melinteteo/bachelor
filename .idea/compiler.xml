@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="usecase3-vendor" />
+        <module name="service-registry" />
+        <module name="usecase3-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service-registry" target="17" />
+      <module name="usecase3-user" target="11" />
+      <module name="usecase3-vendor" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="service-registry" options="-parameters" />
+      <module name="usecase3-user" options="-parameters" />
+      <module name="usecase3-vendor" options="-parameters" />
+    </option>
+  </component>
+</project>
